@@ -27,13 +27,22 @@
     </div>
     <div class="child-content">
       <div class="column">
-        <app-post></app-post>
+        <app-post 
+          [textContent]="textContent" 
+          [img]="img1"
+          [textTitle]="textTitle"></app-post>
       </div>
       <div class="column">
-        <app-post></app-post>
+        <app-post 
+        [textContent]="textContent" 
+        [img]="img2"
+        [textTitle]="textTitle"></app-post>
       </div>
       <div class="column">
-        <app-post></app-post>
+        <app-post 
+        [textContent]="textContent" 
+        [img]="img3"
+        [textTitle]="textTitle"></app-post>
       </div>
     </div>
   </div>
